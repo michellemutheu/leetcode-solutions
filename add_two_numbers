@@ -1,1 +1,42 @@
+/* 
+You are given two non-empty linked lists representing two non-negative integers. 
+The digits are stored in reverse order, and each of their nodes contains a single digit. 
+Add the two numbers and return the sum as a linked list.
 
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+*/
+
+Create an empty linked list to store our answer.
+
+
+
+Start with carry = 0 because we haven't added anything yet.
+
+
+
+Look at the first number in each list.
+
+
+
+Add the two numbers and the carry.
+
+
+
+Write the last digit of the answer into our new linked list.
+
+
+
+If the answer is 10 or more, keep the extra number as carry for the next addition.
+
+
+
+Move to the next numbers in both lists.
+
+
+
+Repeat steps 4–7 until both lists have no more numbers and carry is 0.
+
+
+
+Return the new linked list.
