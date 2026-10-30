@@ -6,3 +6,31 @@ F(0) = 0, F(1) = 1
 F(n) = F(n - 1) + F(n - 2), for n > 1.
 Given n, calculate F(n).
 */
+
+If n = 0, return 0.
+
+
+
+If n = 1, return 1.
+
+
+
+Start with two numbers: a = 0 and b = 1.
+
+
+
+Calculate the next number by adding a + b.
+
+
+
+Move a and b forward:
+- a becomes the old b.
+- b becomes the newly calculated number.
+
+
+
+Repeat until you reach position n.
+
+
+
+Return b.
